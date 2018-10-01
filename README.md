@@ -2,7 +2,9 @@
 
 ## Description
 
-The scrape.py file scrapes data from https://www.tide-forecast.com, as instructed. The Dockerfile builds a container with all the necessary dependencies to run scrape.py. As output, scrape.py creates a file called lowtides.json, which contains the requested data.
+As an exercise, I created a python file that scrapes data from https://www.tide-forecast.com. The python code itself is nothing special; it was written in a day. However, as I worked on the project, it seemed like a number of people ran into issues running Chrome and Selenium in a Docker container. So, this project can be used as a reference/example on how to do just that.
+
+The Dockerfile builds a container with all the necessary dependencies to run scrape.py. As output, scrape.py creates a file called lowtides.json, which contains the requested data.
 
 ## How to Run
 
